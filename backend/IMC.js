@@ -4,6 +4,15 @@ const bodyParser = require('body-parser');
 const app = express()
 const port = 3001
 
+
+const fs = require('fs');
+const https = require('https');
+const path = require('path');
+const key = fs.readFileSync('server.key');
+const cert = fs.readFileSync( 'server.cert');
+const options = { key, cert };
+
+
 app.use(express.json())
 
 app.use((req, res, next) => {
@@ -37,8 +46,8 @@ app.post('/api/imc', (req, res) => {
        
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
 
 
+https.createServer(options, app).listen(port, () => {
+  console.log('App is running ! Go to https://localhost:'+port);
+});
