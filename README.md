@@ -27,10 +27,9 @@ Usage
 - Navigate to http://localhost:3000 in your web browser
 - Enter your height and weight values
 - Click the "Calculate" button to see your BMI value and health status
-
-You can also make a POST request to the API endpoint http://localhost:3000/api/bmi with a JSON body containing the height and weight values, and receive a response with the corresponding BMI value and health status.
+- You can also make a POST request to the API endpoint http://localhost:3000/api/bmi with a JSON body containing the height and weight values, and receive a response with the corresponding BMI value and health status.
 
 
 License
 
-This project is licensed under the MIT License. See the LICENSE file for more details
+- This project is licensed under the MIT License. See the LICENSE file for more details
