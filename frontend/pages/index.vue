@@ -49,7 +49,7 @@ const height = ref("")
 const weight = ref("")
 
 const requestCalculIMC = async () => {
-    const { data : imc } = await useFetch('http://localhost:3001/api/imc', {
+    const { data : imc } = await useFetch('https://localhost:3299/api/imc', {
         method: 'POST',
         headers: { "Content-type": "application/json" },
         body: {
@@ -58,7 +58,7 @@ const requestCalculIMC = async () => {
         }
     })
     
-    result.value = Math.round(imc.value.BMI_Result)
+    result.value = Math.round(imc.value.imc)
 
 
     if ( Number(result.value) <= 18.5 ) colorIMC.value = "text-[#29C5F6]" 
