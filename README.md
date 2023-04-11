@@ -1,35 +1,67 @@
-# WebServiceIMC
-
-This is a simple web service project that calculates the Body Mass Index (BMI) of a person based on their height and weight. The project is built using Node.js, Express, and Vue.js.
-
-The server-side of the application is built using the Express framework for Node.js. It handles the BMI calculation and provides an API endpoint that accepts height and weight values and returns the corresponding BMI value and health status.
-
-The client-side of the application is built using Nuxt.js. It provides a simple user interface where users can enter their height and weight values and see their corresponding BMI value and health status.
+# Web Service de Calcul d'IMC
 
 
-Features
+Il s'agit d'un projet simple de web service qui calcule l'Indice de Masse Corporelle (IMC) d'une personne en fonction de leur poids et de leur taille. Le projet est développé en utilisant Node.js, Express et Nuxt.js.
 
-- Calculates the BMI value and health status of a person based on their height and weight
-- Provides an API endpoint for BMI calculation
-- Simple user interface built using Nuxt.js
+Le côté serveur de l'application est construit en utilisant le framework Express pour Node.js. Il gère le calcul de l'IMC et fournit un point d'API qui accepte les valeurs de taille et de poids et renvoie la valeur d'IMC correspondante et l'état de santé.
+
+Le côté client de l'application est construit en utilisant Nuxt.js. Il fournit une interface utilisateur simple où les utilisateurs peuvent entrer leurs valeurs de taille et de poids et voir leur valeur d'IMC correspondante et leur état de santé.
+
+# Fonctionnalités :
+
+Calcule la valeur d'IMC et l'état de santé d'une personne en fonction de leur taille et de leur poids.
+
+Fournit un point d'API pour le calcul de l'IMC.
+
+Interface utilisateur simple construite en utilisant Nuxt.js.
+
+# Installation
+ 
+Clonez le dépôt en utilisant la commande suivante : 
+
+git clone https://github.com/oussama-sbaa/WebServiceIMC.git
+ 
+Installez les dépendances pour la partie front-end en utilisant la commande suivante dans le dossier "frontend" :
 
 
-Installation
-
-- Clone the repository
-- Navigate to the project directory
-- Run npm install to install dependencies
-- Run npm run dev to start the development server
+cd frontend
+npm install
+Installez les dépendances pour la partie back-end en utilisant la commande suivante dans le dossier "backend" :
 
 
-Usage
+cd backend
+npm install
 
-- Navigate to http://localhost:3000 in your web browser
-- Enter your height and weight values
-- Click the "Calculate" button to see your BMI value and health status
-- You can also make a POST request to the API endpoint http://localhost:3000/api/bmi with a JSON body containing the height and weight values, and receive a response with the corresponding BMI value and health status.
+# Utilisation
+
+Lancez le serveur pour la partie front-end en utilisant la commande suivante dans le dossier "frontend" :
 
 
-License
+npm run dev
+Lancez le serveur pour la partie back-end en utilisant la commande suivante dans le dossier "backend" :
 
-- This project is licensed under the MIT License. See the LICENSE file for more details
+
+npm start
+Accédez à l'application en utilisant un navigateur web à l'adresse suivante :
+
+http://localhost:3000
+
+# Fonctionnalités
+
+L'application permet de calculer l'IMC d'une personne en entrant son poids et sa taille. Elle fournit également une classification de l'IMC en fonction des valeurs de référence de l'Organisation Mondiale de la Santé (OMS).
+
+# Contribution
+
+Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes suivantes :
+
+Créez une branche pour votre contribution en utilisant la commande suivante :
+
+
+git checkout -b <nom-de-votre-branche>
+  
+Effectuez vos modifications et testez-les localement.
+
+Envoyez un pull request pour votre branche. Nous examinerons votre demande et fusionnerons vos modifications si elles sont pertinentes.
+
+Nous vous remercions de contribuer à ce projet !
+
