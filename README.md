@@ -1,4 +1,4 @@
-# Web Service de Calcul d'IMC
+# Web Service de Calcul d'Indice de Masse Corporelle(IMC)
 
 
 Il s'agit d'un projet simple de web service qui calcule l'Indice de Masse Corporelle (IMC) d'une personne en fonction de leur poids et de leur taille. Le projet est développé en utilisant Node.js, Express et Nuxt.js.
@@ -19,7 +19,7 @@ Interface utilisateur simple construite en utilisant Nuxt.js.
  
 Clonez le dépôt en utilisant la commande suivante : 
 
-git clone https://github.com/oussama-sbaa/WebServiceIMC.git
+git clone https://github.com/oussama-sbaa/BMI-Project.git
  
 Installez les dépendances pour la partie front-end en utilisant la commande suivante dans le dossier "frontend" :
 
