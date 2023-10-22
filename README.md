@@ -8,39 +8,39 @@ The client-side of the application is built using Nuxt.js. It provides a simple 
 
 # Features:
 
-Calculates a person's BMI value and health status based on their height and weight.
+- Calculates a person's BMI value and health status based on their height and weight.
 
-Provides an API endpoint for BMI calculation.
+- Provides an API endpoint for BMI calculation.
 
-Simple user interface built using Nuxt.js.
+- Simple user interface built using Nuxt.js.
 
 # Installation
 
-Clone the repository using the following command:
+- Clone the repository using the following command:
 
 git clone https://github.com/oussama-sbaa/BMI-Project.git
  
-Install the dependencies for the front-end part using the following command in the "frontend" folder:
+- Install the dependencies for the front-end part using the following command in the "frontend" folder:
 
 cd frontend
 npm install
 
-Install the dependencies for the back-end part using the following command in the "backend" folder:
+- Install the dependencies for the back-end part using the following command in the "backend" folder:
 
 cd backend
 npm install
 
 # Usage
 
-Launch the server for the front-end part using the following command in the "frontend" folder:
+- Launch the server for the front-end part using the following command in the "frontend" folder:
 
 npm run dev
 
-Launch the server for the back-end part using the following command in the "backend" folder:
+- Launch the server for the back-end part using the following command in the "backend" folder:
 
 npm start
 
-Access the application using a web browser at the following address:
+- Access the application using a web browser at the following address:
 
 http://localhost:3000
 
@@ -52,14 +52,14 @@ The application allows calculating a person's BMI by entering their weight and h
 
 If you wish to contribute to this project, please follow the steps below:
 
-Create a branch for your contribution using the following command:
+- Create a branch for your contribution using the following command:
 
 git checkout -b <nom-de-votre-branche>
   
-Effectuez vos modifications et testez-les localement.
+- Effectuez vos modifications et testez-les localement.
 
-Make your changes and test them locally.
+- Make your changes and test them locally.
 
-Send a pull request for your branch. We will review your request and merge your changes if they are relevant.
+- Send a pull request for your branch. We will review your request and merge your changes if they are relevant.
 
 Thank you for contributing to this project!
