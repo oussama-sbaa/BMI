@@ -1,67 +1,65 @@
-# Web Service de Calcul d'Indice de Masse Corporelle(IMC)
+# Body Mass Index (BMI) Web Service
 
+This is a simple web service project that calculates a person's Body Mass Index (BMI) based on their weight and height. The project is developed using Node.js, Express, and Nuxt.js.
 
-Il s'agit d'un projet simple de web service qui calcule l'Indice de Masse Corporelle (IMC) d'une personne en fonction de leur poids et de leur taille. Le projet est développé en utilisant Node.js, Express et Nuxt.js.
+The server-side of the application is built using the Express framework for Node.js. It handles the BMI calculation and provides an API endpoint that accepts height and weight values, and returns the corresponding BMI value and health status.
 
-Le côté serveur de l'application est construit en utilisant le framework Express pour Node.js. Il gère le calcul de l'IMC et fournit un point d'API qui accepte les valeurs de taille et de poids et renvoie la valeur d'IMC correspondante et l'état de santé.
+The client-side of the application is built using Nuxt.js. It provides a simple user interface where users can enter their height and weight values and see their corresponding BMI value and health status.
 
-Le côté client de l'application est construit en utilisant Nuxt.js. Il fournit une interface utilisateur simple où les utilisateurs peuvent entrer leurs valeurs de taille et de poids et voir leur valeur d'IMC correspondante et leur état de santé.
+# Features:
 
-# Fonctionnalités :
+Calculates a person's BMI value and health status based on their height and weight.
 
-Calcule la valeur d'IMC et l'état de santé d'une personne en fonction de leur taille et de leur poids.
+Provides an API endpoint for BMI calculation.
 
-Fournit un point d'API pour le calcul de l'IMC.
-
-Interface utilisateur simple construite en utilisant Nuxt.js.
+Simple user interface built using Nuxt.js.
 
 # Installation
- 
-Clonez le dépôt en utilisant la commande suivante : 
+
+Clone the repository using the following command:
 
 git clone https://github.com/oussama-sbaa/BMI-Project.git
  
-Installez les dépendances pour la partie front-end en utilisant la commande suivante dans le dossier "frontend" :
-
+Install the dependencies for the front-end part using the following command in the "frontend" folder:
 
 cd frontend
 npm install
-Installez les dépendances pour la partie back-end en utilisant la commande suivante dans le dossier "backend" :
 
+Install the dependencies for the back-end part using the following command in the "backend" folder:
 
 cd backend
 npm install
 
-# Utilisation
+# Usage
 
-Lancez le serveur pour la partie front-end en utilisant la commande suivante dans le dossier "frontend" :
-
+Launch the server for the front-end part using the following command in the "frontend" folder:
 
 npm run dev
-Lancez le serveur pour la partie back-end en utilisant la commande suivante dans le dossier "backend" :
 
+Launch the server for the back-end part using the following command in the "backend" folder:
 
 npm start
-Accédez à l'application en utilisant un navigateur web à l'adresse suivante :
+
+Access the application using a web browser at the following address:
 
 http://localhost:3000
 
-# Fonctionnalités
+# Functionality
 
-L'application permet de calculer l'IMC d'une personne en entrant son poids et sa taille. Elle fournit également une classification de l'IMC en fonction des valeurs de référence de l'Organisation Mondiale de la Santé (OMS).
+The application allows calculating a person's BMI by entering their weight and height. It also provides a BMI classification based on the reference values of the World Health Organization (WHO).
 
 # Contribution
 
-Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes suivantes :
+If you wish to contribute to this project, please follow the steps below:
 
-Créez une branche pour votre contribution en utilisant la commande suivante :
-
+Create a branch for your contribution using the following command:
 
 git checkout -b <nom-de-votre-branche>
   
 Effectuez vos modifications et testez-les localement.
 
-Envoyez un pull request pour votre branche. Nous examinerons votre demande et fusionnerons vos modifications si elles sont pertinentes.
+Make your changes and test them locally.
 
-Nous vous remercions de contribuer à ce projet !
+Send a pull request for your branch. We will review your request and merge your changes if they are relevant.
 
+Thank you for contributing to this project!
