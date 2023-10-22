@@ -18,31 +18,31 @@ The client-side of the application is built using Nuxt.js. It provides a simple 
 
 - Clone the repository using the following command:
 
-git clone https://github.com/oussama-sbaa/BMI-Project.git
+   git clone https://github.com/oussama-sbaa/BMI-Project.git
  
 - Install the dependencies for the front-end part using the following command in the "frontend" folder:
 
-cd frontend
-npm install
+   cd frontend
+   npm install
 
 - Install the dependencies for the back-end part using the following command in the "backend" folder:
 
-cd backend
-npm install
+   cd backend
+   npm install
 
 # Usage
 
 - Launch the server for the front-end part using the following command in the "frontend" folder:
 
-npm run dev
-
+   npm run dev
+ 
 - Launch the server for the back-end part using the following command in the "backend" folder:
 
-npm start
+   npm start
 
 - Access the application using a web browser at the following address:
 
-http://localhost:3000
+   http://localhost:3000
 
 # Functionality
 
@@ -54,7 +54,7 @@ If you wish to contribute to this project, please follow the steps below:
 
 - Create a branch for your contribution using the following command:
 
-git checkout -b <nom-de-votre-branche>
+   git checkout -b <nom-de-votre-branche>
   
 - Effectuez vos modifications et testez-les localement.
 
